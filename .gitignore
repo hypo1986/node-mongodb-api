@@ -1,0 +1,15 @@
+.lastBuildTime
+/node_modules
+/dist
+/logs
+*.log
+/views
+/.idea
+/.git
+/nohup.out
+/.DS_Store
+.DS_Store
+/client/preview
+/client/publish
+/.vscode
+/uploadFiles

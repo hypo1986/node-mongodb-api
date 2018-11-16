@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "cms-api",
+      "script": "app.js",
+      "cwd": "./",
+      "node_args": [
+        "--harmony"
+      ],
+      "error_file": "./logs/err.log",
+      "out_file": "./logs/out.log",
+      "exec_mode": "cluster_mode",
+      "instances": 4,
+      "env": {
+        "NODE_ENV": "beta",
+        "PORT": 5016
+      },
+      "max_memory_restart": "300M",
+      "log_date_format": "YYYY - MM - DD HH: mm Z"
+    }
+  ]
+}
